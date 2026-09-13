@@ -10,7 +10,7 @@ In this work, we propose **ParaAnya**, a caching mechanism that can be applied t
 
 ParaAnya stores an input-output pair for each timestep and directly reuses the cached output when the current input latent remains sufficiently close to the cached input. Only when the latent changes beyond a predefined threshold is a new network evaluation performed and the cache updated. By avoiding redundant network evaluations, ParaAnya substantially reduces computation and further improves the speedup of existing PinT diffusion samplers.
 
-<!-- - ![alt text](paraanya_fig.png) -->
+![ParaAnya Method](paraanya_fig.png)
 
 ## Results
 
