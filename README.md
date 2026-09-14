@@ -16,7 +16,7 @@ ParaAnya stores an input-output pair for each timestep and directly reuses the c
 
 The comparisons below showcase the outputs of different PinT diffusion samplers with and without the integration of the ParaAnya plugin. 
 
-<!-- - ![alt text](paraanya_diff.png) -->
+![ParaAnya Results](paraanya_diff.jpg)
 
 As demonstrated, the visual differences are minimal, yet our approach maintains a significant computational speedup, proving the efficacy and reliability of the ParaAnya plugin.
 
